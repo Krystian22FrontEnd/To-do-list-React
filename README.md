@@ -19,6 +19,9 @@ Simple yet very usefull task-list for everyone who wants to have control over th
 - Grid
 - Media Queries
 - Immutability Method
+- React
+- Webpack
+- Babel
 
 # Getting Started with Create React App
 
