@@ -10,15 +10,15 @@
     flex-wrap: wrap;
 }
 
-.section__button:hover {
+.buttons__button:hover {
     color: hsl(180, 100%, 30%);
 }
 
-.section__button:active {
+.buttons__button:active {
     color: hsl(180, 100%, 35%);
 }
 
-.section__button:disabled {
+.buttons__button:disabled {
     color: gray;
 }
 
