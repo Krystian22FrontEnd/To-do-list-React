@@ -1,0 +1,24 @@
+.section__button {
+    border: none;
+    color: hsl(180, 100%, 25%);
+    background-color: white;
+    margin-top: 3px;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 30%);
+}
+
+.section__button:active {
+    color: hsl(180, 100%, 35%);
+}
+
+.section__button:disabled {
+    color: gray;
+}
+

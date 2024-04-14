@@ -1,0 +1,17 @@
+.section {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    box-shadow: 3px -3px 10px 1px hsl(0deg 2.77% 80%);
+    display: grid;
+}
+
+.section__title {
+    padding: 20px 25px;
+    margin: 0;
+}
+
+
+
+
+    
