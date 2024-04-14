@@ -25,11 +25,11 @@
     padding: 10px 0;
 }
 
-.list__item--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
-.list__item--done {
+.tasks__item--done {
     text-decoration: line-through;
 }
 
