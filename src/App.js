@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
@@ -6,16 +7,20 @@ import Header from "./Header";
 import Container from "./Container";
 
 const tasks = [
-  { id: 1, content: "przejść na Reacta", done: true },
+  { id: 1, content: "przejść na Reacta", done: false },
   { id: 2, content: "zjeść obiad", done: true },
 ];
 
-const hideDone = false;
-
 function App() {
+  const [hideDone, sethideDone] = useState(false);
+
+  const toggleHideDone = () => {
+    sethideDone(hideDone => !hideDone);
+  };
+
   return (
-    <Container className="container">
-      <Header title="Lista zadań"/>
+    <Container>
+      <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
         body={<Form />}
@@ -29,7 +34,7 @@ function App() {
         }
         extraHeaderContent={
           <Buttons
-            tasks={tasks} hideDone={hideDone} />
+            tasks={tasks} hideDone={hideDone} toggleHideDone={toggleHideDone} />
         }
       />
     </Container>
