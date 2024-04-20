@@ -39,6 +39,8 @@
 
 .task__button--done:hover {
     background-color: hsl(120, 93%, 40%);
+    border: solid 1px hsl(0, 3%, 20%);
+    border-radius: 3px;
 }
 
 .task__button--remove {
@@ -47,4 +49,6 @@
 
 .task__button--remove:hover {
     background-color: hsl(0, 100%, 55%);
+    border: solid 1px hsl(0, 3%, 20%);
+    border-radius: 3px;
 }
