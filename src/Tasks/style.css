@@ -35,6 +35,8 @@
 
 .task__button--done {
     background-color: hsl(120, 93%, 35%);
+    color: white;
+    font-size: 120%;
 }
 
 .task__button--done:hover {
