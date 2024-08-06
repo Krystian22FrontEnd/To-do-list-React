@@ -63,4 +63,11 @@ export const Button = styled.button`
         border-radius: 3px;
       }
     `}
+
+    @media(max-width: 768px) {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    flex-shrink: 0;
+  }
 `;
