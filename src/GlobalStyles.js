@@ -1,11 +1,13 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
 }
-
-*,
-::after,
-::before {
+* {
+  *, *::before, *::after {
   box-sizing: inherit;
+}
 }
 
 body {
@@ -13,6 +15,7 @@ body {
   background-color: hsl(0, 0%, 90%);
   word-break: break-word;
 }
+`;
 
 
 
