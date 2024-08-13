@@ -5,7 +5,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid ${({theme}) => theme.colors.dirtyWhite};
   padding: 20px 0;
   margin: 0 40px;
   list-style-type: none;
@@ -41,13 +41,13 @@ export const Button = styled.button`
   ${({ $toggleDone }) =>
     $toggleDone &&
     css`
-      background-color: hsl(120, 93%, 35%);
-      color: white;
+      background-color: ${({theme}) => theme.colors.green};
+      color: ${({theme}) => theme.colors.white};
       font-size: 120%;
 
       &:hover {
-        background-color: hsl(120, 93%, 40%);
-        border: solid 1px hsl(0, 3%, 20%);
+        background-color: ${({theme}) => theme.colors.lightGreen};
+        border: solid 1px ${({theme}) => theme.colors.lightBlack};
         border-radius: 3px;
       }
     `}
@@ -55,11 +55,11 @@ export const Button = styled.button`
   ${({ $remove }) =>
     $remove &&
     css`
-      background-color: hsl(0, 98%, 45%);
+      background-color: ${({theme}) => theme.colors.red};
 
       &:hover {
-        background-color: hsl(0, 100%, 55%);
-        border: solid 1px hsl(0, 3%, 20%);
+        background-color: ${({theme}) => theme.colors.lightRed};
+        border: solid 1px ${({theme}) => theme.colors.lightBlack};
         border-radius: 3px;
       }
     `}

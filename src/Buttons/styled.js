@@ -11,8 +11,8 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
   border: none;
-  color: hsl(180, 100%, 25%);
-  background-color: white;
+  color: ${({theme}) => theme.colors.teal};
+  background-color: ${({theme}) => theme.colors.white};
   margin-top: 3px;
   margin-left: 20px;
 
