@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: hsl(0, 0%, 90%);
+  background-color: ${({theme}) => theme.colors.mercury};
   word-break: break-word;
 }
 `;

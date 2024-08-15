@@ -4,7 +4,7 @@ export const theme = {
       persianGreen: "hsl(180, 100%, 30%)",
       bondiBlue: "hsl(180, 100%, 35%)",
       white: "hsl(0, 0%, 100%)",
-      dirtyWhite: "hsl(0, 0%, 87%)",
+      mercury: "hsl(0, 0%, 90%)",
       green: "hsl(120, 93%, 35%)",
       lightGreen: "hsl(120, 93%, 40%)",
       lightBlack: "hsl(0, 3%, 20%)",

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   background-color: ${({theme}) => theme.colors.white};
-  border: 1px solid ${({theme}) => theme.colors.dirtyWhite};
+  border: 1px solid ${({theme}) => theme.colors.mercury};
   margin: 5px 0;
   box-shadow: 3px -3px 10px 1px hsl(0deg 2.77% 80%);
   display: grid;
@@ -18,7 +18,7 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid ${({theme}) => theme.colors.dirtyWhite};
+  border-bottom: 1px solid ${({theme}) => theme.colors.mercury};
   grid-gap: 20px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
