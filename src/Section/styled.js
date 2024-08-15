@@ -21,7 +21,7 @@ export const Header = styled.header`
   border-bottom: 1px solid ${({theme}) => theme.colors.dirtyWhite};
   grid-gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     grid-template-columns: 1fr;
   }
 `;

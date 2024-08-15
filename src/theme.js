@@ -1,6 +1,8 @@
 export const theme = {
     colors: {
       teal: "hsl(180, 100%, 25%)",
+      persianGreen: "hsl(180, 100%, 30%)",
+      bondiBlue: "hsl(180, 100%, 35%)",
       white: "hsl(0, 0%, 100%)",
       dirtyWhite: "hsl(0, 0%, 87%)",
       green: "hsl(120, 93%, 35%)",
@@ -8,5 +10,9 @@ export const theme = {
       lightBlack: "hsl(0, 3%, 20%)",
       red: "hsl(0, 100%, 45%)",
       lightRed: "hsl(0, 100%, 55%)",
-    }
+    },
+
+    breakpoint: {
+      mobileMax: 768,
+    },
   }

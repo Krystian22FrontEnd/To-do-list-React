@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
   padding: 20px 0px;
   flex-wrap: wrap;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     padding: 20px 20px;
   }
 `;
@@ -25,15 +25,15 @@ export const Button = styled.button`
   transition: 0.3s;
 
   &:hover {
-    background-color: hsl(180, 100%, 30%);
+    background-color: ${({theme}) => theme.colors.persianGreen};
     transform: scale(1.1);
 
     &:active {
-      background-color: hsl(180, 100%, 35%);
+      background-color: ${({theme}) => theme.colors.bondiBlue};
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     flex-grow: 1;
     max-width: 600px;
     width: 100%;
