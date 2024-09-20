@@ -6,11 +6,6 @@ export const useTasks = () => {
     return localData ? JSON.parse(localData) : [];
   });
 
-  const [hideDone, setHideDone] = useState(false);
-
-  const toggleHideDone = () => {
-    setHideDone((hideDone) => !hideDone);
-  };
 
   useEffect(() => {
     localStorage.setItem("task", JSON.stringify(tasks));
@@ -52,12 +47,10 @@ export const useTasks = () => {
   };
   return {
     tasks,
-    hideDone,
     setTasks,
     removeTask,
     toggleTaskDone,
     setAllDone,
     addNewTask,
-    toggleHideDone,
   };
 };

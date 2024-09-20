@@ -5,7 +5,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  border-bottom: 1px solid ${({theme}) => theme.colors.dirtyWhite};
+  border-bottom: 1px solid ${({theme}) => theme.colors.mercury};
   padding: 20px 0;
   margin: 0 40px;
   list-style-type: none;
