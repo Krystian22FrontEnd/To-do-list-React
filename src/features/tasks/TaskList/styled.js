@@ -36,7 +36,6 @@ export const Button = styled.button`
   margin: 0 10px;
   flex-shrink: 0;
   border: none;
-  transition: 0.3s;
 
   ${({ $toggleDone }) =>
     $toggleDone &&
