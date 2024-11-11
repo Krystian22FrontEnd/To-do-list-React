@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: ${({theme}) => theme.colors.mercury};
   word-break: break-word;
 }
