@@ -10,6 +10,8 @@ Simple yet very usefull task-list for everyone who wants to have control over th
 ![Task-list](https://github.com/Krystian22FrontEnd/Tasks-List/blob/main/gif/To%20do%20List.gif)
 
 ### Used Technologies:
+Data fetched from public API 
+
 - BEM
 - Java Script
 - Normalize
