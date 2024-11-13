@@ -6,7 +6,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  border-bottom: 1px solid ${({theme}) => theme.colors.mercury};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.mercury};
   padding: 20px 0;
   list-style-type: none;
   display: flex;
@@ -40,13 +40,13 @@ export const Button = styled.button`
   ${({ $toggleDone }) =>
     $toggleDone &&
     css`
-      background-color: ${({theme}) => theme.colors.green};
-      color: ${({theme}) => theme.colors.white};
+      background-color: ${({ theme }) => theme.colors.green};
+      color: ${({ theme }) => theme.colors.white};
       font-size: 120%;
 
       &:hover {
-        background-color: ${({theme}) => theme.colors.lightGreen};
-        border: solid 1px ${({theme}) => theme.colors.lightBlack};
+        background-color: ${({ theme }) => theme.colors.lightGreen};
+        border: solid 1px ${({ theme }) => theme.colors.lightBlack};
         border-radius: 3px;
       }
     `}
@@ -54,11 +54,11 @@ export const Button = styled.button`
   ${({ $remove }) =>
     $remove &&
     css`
-      background-color: ${({theme}) => theme.colors.red};
+      background-color: ${({ theme }) => theme.colors.red};
 
       &:hover {
-        background-color: ${({theme}) => theme.colors.lightRed};
-        border: solid 1px ${({theme}) => theme.colors.lightBlack};
+        background-color: ${({ theme }) => theme.colors.lightRed};
+        border: solid 1px ${({ theme }) => theme.colors.lightBlack};
         border-radius: 3px;
       }
     `}
@@ -72,6 +72,6 @@ export const Button = styled.button`
 `;
 
 export const StyledLink = styled(Link)`
-text-decoration: none;
-color: ${({theme}) => theme.colors.teal};
-`
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.teal};
+`;
