@@ -22,6 +22,10 @@ Simple yet very usefull task-list for everyone who wants to have control over th
 - React
 - Webpack
 - Babel
+- Redux-Saga
+- React Router
+- Redux
+- Redux Toolkit
 
 # Getting Started with Create React App
 
