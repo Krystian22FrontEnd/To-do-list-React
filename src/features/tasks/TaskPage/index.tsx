@@ -6,7 +6,8 @@ import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
 
 function TasksPage() {
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
+
   const task = useSelector((state) => getTaskById(state, id));
 
   return (

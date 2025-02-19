@@ -15,4 +15,4 @@ export const theme = {
     breakpoint: {
       mobileMax: 768,
     },
-  }
+  } as const
