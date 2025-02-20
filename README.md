@@ -7,7 +7,7 @@ https://krystian22frontend.github.io/To-do-list-React/
 
 Simple yet very usefull task-list for everyone who wants to have control over their day.
 
-![Task-list](https://github.com/Krystian22FrontEnd/Tasks-List/blob/main/gif/To%20do%20List.gif)
+![To-do-list](https://github.com/user-attachments/assets/1b478229-40ae-442b-8a3b-f7f140c26ad2)
 
 ### Used Technologies:
 Data fetched from public API 
