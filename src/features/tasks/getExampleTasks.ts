@@ -4,5 +4,5 @@ export const getExampleTasks = async () => {
   if (!response.ok) {
    throw new Error(response.statusText);
   }
-  return await response.json();
+  return await response.json() as string;
 };
