@@ -1,9 +1,8 @@
-import React from "react";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import TasksPage from "./features/tasks/TasksPage";
 import TaskPage from "./features/tasks/TaskPage";
 import AuthorPage from "./features/author/AuthorPage";
-import { StyledNavLink, ListItem, Wrapper, Item } from "./styled";
+import { StyledNavLink, ListItem, Wrapper, Item } from "./styledRouter";
 
 export default () => (
   <HashRouter>

@@ -1,10 +1,10 @@
-import { useDispatch } from "react-redux";
 import { fetchExampleTasks } from "../../features/tasks/tasksSlice";
 import Button from "../Button";
 import { useState } from "react";
+import { useAppDispatch } from "../../hooks";
 
 const GetExampleTasks = () => {
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const [isLoading, setIsLoading] = useState(false);
 
   const handleClick = () => {

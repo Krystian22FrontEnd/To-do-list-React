@@ -19,7 +19,7 @@ export const Item = styled.li`
     `}
 `;
 
-export const Content = styled.span`
+export const Content = styled.span<{$done?: boolean}>`
   flex-basis: 90%;
   align-self: center;
 
@@ -30,7 +30,7 @@ export const Content = styled.span`
     `}
 `;
 
-export const Button = styled.button`
+export const Button = styled.button<{$toggleDone?: boolean; $remove?: boolean}>`
   flex-basis: 35px;
   height: 35px;
   margin: 0 10px;
